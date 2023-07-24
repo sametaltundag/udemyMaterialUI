@@ -5,6 +5,8 @@ import { LessonButton } from './components/LessonButton';
 import { LessonButtonGroup } from './components/LessonButtonGroup';
 import { LessonTextField } from './components/LessonTextField';
 import { LessonRadioGroup } from './components/LessonRadioGroup';
+import { LessonSelect } from './components/LessonSelect';
+import { LessonCheckbox } from './components/LessonCheckbox';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       {/* <LessonButton /> */}
       {/* <LessonButtonGroup /> */}
       {/* <LessonTextField /> */}
-      <LessonRadioGroup />
+      {/* <LessonRadioGroup /> */}
+      {/* <LessonSelect /> */}
+      <LessonCheckbox />
     </div>
   );
 }
