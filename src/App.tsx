@@ -7,6 +7,9 @@ import { LessonTextField } from './components/LessonTextField';
 import { LessonRadioGroup } from './components/LessonRadioGroup';
 import { LessonSelect } from './components/LessonSelect';
 import { LessonCheckbox } from './components/LessonCheckbox';
+import { LessonAutoComplete } from './components/LessonAutoComplete';
+import { LessonCard } from './components/LessonCard';
+import { LessonAccardion } from './components/LessonAccardion';
 
 function App() {
   return (
@@ -17,7 +20,10 @@ function App() {
       {/* <LessonTextField /> */}
       {/* <LessonRadioGroup /> */}
       {/* <LessonSelect /> */}
-      <LessonCheckbox />
+      {/* <LessonCheckbox /> */}
+      {/* <LessonAutoComplete /> */}
+      {/* <LessonCard /> */}
+      <LessonAccardion />
     </div>
   );
 }
