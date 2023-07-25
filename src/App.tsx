@@ -9,7 +9,10 @@ import { LessonSelect } from './components/LessonSelect';
 import { LessonCheckbox } from './components/LessonCheckbox';
 import { LessonAutoComplete } from './components/LessonAutoComplete';
 import { LessonCard } from './components/LessonCard';
-import { LessonAccardion } from './components/LessonAccardion';
+import { LessonAccordion } from './components/LessonAccardion';
+import { LessonImageLıst } from './components/LessonImageLıst';
+import { LessonPaper } from './components/LessonPaper';
+import { LessonBreadCrumb } from './components/LessonBreadCrumb';
 
 function App() {
   return (
@@ -23,7 +26,10 @@ function App() {
       {/* <LessonCheckbox /> */}
       {/* <LessonAutoComplete /> */}
       {/* <LessonCard /> */}
-      <LessonAccardion />
+      {/* <LessonAccordion /> */}
+      {/* <LessonImageLıst /> */}
+      {/* <LessonPaper /> */}
+      <LessonBreadCrumb/>
     </div>
   );
 }
