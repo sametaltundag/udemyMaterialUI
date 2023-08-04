@@ -21,6 +21,10 @@ import { LessonDialog } from './components/LessonDialog';
 import { LessonAlert } from './components/LessonAlert';
 import { LessonSkeleton } from './components/LessonSkeleton';
 import { LessonProgress } from './components/LessonProgress';
+import { LessonTable } from './components/LessonTable';
+import { LessonTabs } from './components/LessonTabs';
+import { LessonTimeLine } from './components/LessonTimeLine';
+import { LessonMasonry } from './components/LessonMasonry';
 
 function App() {
   return (
@@ -44,8 +48,12 @@ function App() {
       {/* <LessonList /> */}
       {/* <LessonDialog /> */}
       {/* <LessonAlert /> */}
-      <LessonSkeleton />
-      <LessonProgress />
+      {/* <LessonSkeleton /> */}
+      {/* <LessonProgress /> */}
+      <LessonTable />
+      <LessonTabs />
+      <LessonTimeLine />
+      <LessonMasonry />
     </div>
   );
 }
