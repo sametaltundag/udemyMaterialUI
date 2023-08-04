@@ -17,6 +17,8 @@ import { LessonDrawer } from './components/LessonDrawer';
 import { LessonBadge } from './components/LessonBadge';
 import { LessonAvatar } from './components/LessonAvatar';
 import { LessonList } from './components/LessonList';
+import { LessonDialog } from './components/LessonDialog';
+import { LessonAlert } from './components/LessonAlert';
 
 function App() {
   return (
@@ -37,7 +39,9 @@ function App() {
       {/* <LessonDrawer/> */}
       {/* <LessonBadge/> */}
       {/* <LessonAvatar /> */}
-      <LessonList />
+      {/* <LessonList /> */}
+      <LessonDialog />
+      <LessonAlert />
     </div>
   );
 }
